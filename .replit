@@ -1,0 +1,7 @@
+run = "cd discord-bot && npm install && npm start"
+entrypoint = "discord-bot/src/index.js"
+
+[nix]
+channel = "stable-24_05"
+
+[env]

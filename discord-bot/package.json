@@ -1,0 +1,25 @@
+{
+  "name": "discord-copilot-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Discord bot with context-aware responses",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "gemini"
+  ],
+  "author": "Figmenta Internship",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.90.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
